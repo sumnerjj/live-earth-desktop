@@ -38,7 +38,8 @@ scale = 8
 # using a UUID just so the OS sees a new filename each time it goes to change
 #   the desktop image. if it's always the same name, it won't change
 
-base = '/Users/willw/code/live-earth-desktop/'
+# base = '/Users/willw/code/live-earth-desktop/'
+base = '/Users/justinsumner/projects/live-earth-desktop/'
 tmp = base + 'tile_tmp.png'
 tile_tmp = base + 'tmp.png'
 out = base + 'images/desktop-%s.png' % (str(uuid.uuid4()))
@@ -87,7 +88,8 @@ def fetch_and_set():
     png.save(tmp, 'PNG')
 
     # clear out the old images in this folder so the OS picks the right one
-    os.system("rm /Users/will/code/live-earth-desktop/images/*")
+    # os.system("rm /Users/will/code/live-earth-desktop/images/*")
+    os.system("rm /Users/justinsumner/projects/live-earth-desktop/images/*")
 
     # now move in the new image. doing it like this because writing the image
     # takes a while, so it's better to make it a (semi-) atomic swap

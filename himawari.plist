@@ -6,17 +6,17 @@
 	<string>himawari-desktop</string>
 	<key>ProgramArguments</key>
 	<array>
-		<string>/usr/local/bin/python</string>
-		<string>/Users/willw/code/live-earth-desktop/himawari.py</string>
+		<string>/usr/bin/python</string>
+		<string>/Users/justinsumner/projects/live-earth-desktop/himawari.py</string>
 	</array>
 	<key>RunAtLoad</key>
 	<true/>
 	<key>StartInterval</key>
 	<integer>600</integer>
 	<key>StandardOutPath</key>
-    <string>/Users/willw/code/live-earth-desktop/out.log</string>
+    <string>/Users/justinsumner/projects/live-earth-desktop/out.log</string>
     <key>StandardErrorPath</key>
-    <string>/Users/willw/code/live-earth-desktop/err.log</string>
+    <string>/Users/justinsumner/projects/live-earth-desktop/err.log</string>
 	<!-- <key>KeepAlive</key>
 	<dict>
 		<key>SuccesfulExit</key>
